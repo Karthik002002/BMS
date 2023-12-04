@@ -1,0 +1,369 @@
+.sort:after {
+    content: url(data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNyIgaGVpZ2h0PSI5IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik02LjUyNiAzLjVjLjQyMyAwIC42MzUtLjQzOC4zMy0uNzA4TDMuODQuMTI1YS41MjkuNTI5IDAgMDAtLjY4MiAwTC4xNDUgMi43OTJjLS4zMDYuMjctLjA5NC43MDguMzMuNzA4aDYuMDV6TS40NzQgNS41Yy0uNDIzIDAtLjYzNS40MzgtLjMzLjcwOEwzLjE2IDguODc1YS41MjkuNTI5IDAgMDAuNjgyIDBsMy4wMTQtMi42NjdjLjMwNi0uMjcuMDk0LS43MDgtLjMzLS43MDhILjQ3NnoiIGZpbGw9IiNCNkMyRDIiLz48L3N2Zz4=);
+    margin-left: 0.25rem;
+    display: none !important;
+}
+
+.form-check {
+    display: block;
+    min-height: 1.5rem;
+    padding-left: 1.5em;
+    margin-bottom: 0.34375rem;
+    display: none !important;
+}
+
+.table tfoot>tr>th:first-child,
+.table thead>tr>th:first-child,
+.table tr td:first-child,
+.table tr th:first-child {
+    padding-left: 1rem !important;
+}
+
+
+/* TOP BAR */
+.top-bar {
+    display: none;
+}
+
+.fa {
+    /* color: red; */
+    background-color: white !important;
+    height: 25px;
+    border-radius: 100px;
+}
+
+.navbar-top {
+    min-height: 0px !important;
+    height: 50px;
+}
+
+/* navbar */
+.navbar-glass {
+    background-color: #2c7be5 !important;
+}
+
+.nav-header h4 {
+    color: #fff !important;
+}
+
+/* toggle button */
+.theme-control-toggle .theme-control-toggle-label {
+    height: 1.8rem !important;
+    width: 1.8rem !important;
+}
+
+/* avatar image */
+.avatar-xl {
+    height: 1.8rem !important;
+    width: 1.8rem !important;
+}
+
+.avatar {
+    position: relative;
+    display: inline-block;
+    /* background-color: white !important; */
+    border-radius: 50px;
+}
+
+h5 {
+    font-size: 16px !important;
+}
+
+.bg-light.card-body {
+    padding-top: 0px;
+}
+
+/* footer */
+.footer {
+    position: absolute;
+    bottom: 5px !important;
+    width: 100%;
+}
+
+.date-time {
+    color: #fff;
+    padding-right: 8px;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--falcon-gutter-x)*0.5);
+    padding-left: 0px !important;
+    margin-top: var(--falcon-gutter-y);
+}
+
+.navbar-brand {
+    margin-right: 5px !important;
+}
+
+.sun-details {
+    text-align: right;
+}
+
+.table {
+    width: 80% !important;
+    border-width: 100% !important;
+}
+
+.mob-navbar {
+    display: none;
+}
+
+.mob-navbar {
+    height: 25%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 1;
+    left: 0;
+    background-color: #fff;
+    padding-top: 10px;
+    transition: all 0.2s ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.mob-navbar ul li a {
+    color: rgb(71, 71, 71) !important;
+    transition: 0.3s !important;
+    font-size: 18px !important;
+    font-weight: 500 !important;
+}
+
+
+.mob-navbar ul li {
+    padding: 10px 15px 0px 25px;
+}
+
+
+
+.navbar-toggler-humburger-icon {
+    height: 1.9rem !important;
+    width: 1.8rem !important;
+    background-color: #d8e2ef !important;
+}
+
+.navbar-toggler {
+    border-radius: 0.25rem;
+    transition: all .2s ease-in-out;
+    background-color: #2c7be5 !important;
+}
+
+.navbar-top .navbar-collapse {
+    margin: 0 -0.75rem;
+    padding: 0 0rem;
+    /* flex: 1 0 100%; */
+    order: 1;
+}
+
+.mob-navbar ul li a:hover {
+    color: #2c7be5;
+    text-decoration: none;
+}
+
+.content {
+    padding-bottom: 1rem !important;
+}
+
+.form-select {
+    appearance: none;
+    -webkit-appearance: none;
+    font-size: 12px !important;
+    max-width: 200px !important;
+}
+
+.card {
+    --falcon-card-cap-padding-y: 1rem;
+    --falcon-card-cap-padding-x: 0.8rem !important;
+}
+
+/* TABS START */
+.tabs {
+    font-family: arial;
+    margin: 0 auto;
+    width: 100%;
+    text-align: center;
+}
+
+/* img {
+    width: 300px;
+} */
+
+.tab-buttons {
+    margin-bottom: 10px;
+}
+
+button {
+    /* margin-right: 15px; */
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    outline: none;
+    /* padding: 10px 20px; */
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.4);
+    transition: all ease-in-out 0.2s;
+    border-bottom: 2px solid transparent;
+}
+
+.active {
+    border-bottom: 2px solid #42b3f4;
+
+    color: black;
+}
+
+/* TABS END */
+
+/* SIDE BAR START */
+/* .navbar-vertical {
+    margin-top: 60px !important;
+    margin-left: 50px !important;
+    background-color: #fff !important;
+}
+
+.navbar-vertical .navbar-nav .nav-item .nav-link.active {
+    color: #6a6e72 !important;
+} */
+
+/* SIDE BAR END */
+
+
+/* MEDIA QUERY */
+
+@media only screen and (max-width: 1280px) {
+
+    nav.navbar-glass.fs--1.navbar-top.navbar.navbar-expand-lg.navbar-light {
+        padding: 0px 5px 0px 5px;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .leaflet-container {
+        width: 100% !important;
+        height: 85vh !important;
+        z-index: 1;
+    }
+
+    .navbar-top {
+        min-height: fit-content !important;
+        height: fit-content !important;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .col-lg-2 {
+        flex: 0 0 auto;
+        width: 12.66666667% !important;
+    }
+
+    .col-lg-3 {
+        flex: 0 0 auto;
+        width: 15% !important;
+    }
+
+    .sun-details {
+        width: 195% !important;
+    }
+}
+
+@media only screen and (max-width: 912px) {
+    .leaflet-container {
+        width: 100% !important;
+        height: 60vh !important;
+        z-index: 1;
+    }
+
+    .profile-icon {
+        padding-left: 9px;
+    }
+
+    .sun-details {
+        text-align: left;
+    }
+
+    .weather {
+        margin: 0px 50px;
+    }
+
+    .desktop-navbar {
+        display: none;
+    }
+
+    .mob-navbar {
+        display: block;
+    }
+}
+
+@media only screen and (max-width:580px) {
+
+    .nav-header h4 {
+        display: none;
+    }
+
+    .top-bar {
+        display: inline;
+    }
+
+    .top-bar .navbar-top {
+        min-height: 20px !important;
+    }
+
+    .top-bar h5 {
+        font-size: 14px !important;
+    }
+
+    .navbar-glass {
+        padding-top: 52px !important;
+    }
+
+    .navbar-glass .logo-img {
+        height: 50px !important;
+        width: 40px !important;
+    }
+
+    .leaflet-container {
+        width: 100% !important;
+        height: 65vh !important;
+        z-index: 1;
+    }
+
+    .date-time {
+        color: #fff;
+        padding-right: 95px;
+    }
+
+    .sun-details {
+        text-align: left;
+    }
+
+    .weather {
+        margin: 0px 0px;
+    }
+
+    .table {
+        width: 100% !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 530px) {
+    .date-time {
+        color: #fff;
+        padding-right: 18px;
+    }
+
+    .profile-icon {
+        padding-left: 8px;
+    }
+
+
+}
+
+/* @media only screen and (max-width: 280px) {
+    .date-time {
+        color: #fff;
+        padding-right: 0px;
+    }
+} */
