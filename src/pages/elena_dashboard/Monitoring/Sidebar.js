@@ -115,7 +115,7 @@ const Sidebar = ({ data, setCenter, setZoomLevel }) => {
 
   let zoneArray = ['All', ...zone];
   // const [zoneData, setZoneData] = useState();
-  // console.log(zoneData);
+  // console.log(zoneArray);
 
   //   console.log(zoneArray);
   // console.log(recentBuoysTableData);
