@@ -154,7 +154,7 @@ const Sidebar = ({ data, setCenter, setZoomLevel }) => {
       >
         <Card>
           <Card.Header>
-            <div className="d-flex justify-content-between">
+            <div className="d-flex justify-content-between vehicle-table-header">
               <SidebarTableHeader table />
               <div className="my-3">
                 <Form.Select

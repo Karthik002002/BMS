@@ -176,6 +176,7 @@ const StackedHorizontalChart = ({ data }) => {
         containLabel: true
       }
       });
+    
       return (
         <ReactEChartsCore
           echarts={echarts}
