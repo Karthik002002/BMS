@@ -90,10 +90,10 @@ const WeatherDetails = ({ data }) => {
               )}
             </Col>
 
-            <Col sm={12} lg={3} md={2} className="weather">
+            <Col sm={12} lg={3} md={2} className="weather ">
               <div className="mb-2">
                 <h4 className="mb-2">Weather</h4>
-                <SoftBadge pill className="ms-2">
+                <SoftBadge pill className="ms-2 text-wrap">
                   <span className="text-warning"> weather :</span>{' '}
                   {weather ? weather.weather[0].description : ''}
                 </SoftBadge>
@@ -106,7 +106,7 @@ const WeatherDetails = ({ data }) => {
             <Col sm={12} lg={1} md={2} className="wind">
               <div className="mb-2">
                 <h4 className="mb-2">Wind</h4>
-                <SoftBadge pill className="ms-2">
+                <SoftBadge pill className="ms-2 text-wrap">
                   <span className="text-warning"> speed :</span>{' '}
                   {weather ? weather.wind.speed : ''}
                 </SoftBadge>
@@ -119,15 +119,15 @@ const WeatherDetails = ({ data }) => {
             <Col sm={12} lg={4} md={4}>
               <div className="mb-2">
                 <h4 className="mb-2">Others</h4>
-                <SoftBadge pill className="ms-2">
+                <SoftBadge pill className="ms-2 text-wrap">
                   <span className="text-warning"> temp :</span>{' '}
                   {weather ? weather.main.temp : ''}
                 </SoftBadge>
-                <SoftBadge pill className="ms-2">
+                <SoftBadge pill className="ms-2 text-wrap">
                   <span className="text-warning"> pressure :</span>{' '}
                   {weather ? weather.main.pressure : ''}
                 </SoftBadge>
-                <SoftBadge pill className="ms-2">
+                <SoftBadge pill className="ms-2 text-wrap word-padding">
                   <span className="text-warning"> humidity :</span>{' '}
                   {weather ? weather.main.humidity : ''}
                 </SoftBadge>

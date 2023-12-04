@@ -3,7 +3,10 @@
     margin-left: 0.25rem;
     display: none !important;
 }
-
+.word-padding{
+    margin: 5px !important;
+    word-break: break-all !important;
+}
 .form-check {
     display: block;
     min-height: 1.5rem;
@@ -119,7 +122,7 @@ h5 {
     top: 1;
     left: 0;
     background-color: #fff;
-    padding-top: 10px;
+    padding-top: 15px;
     transition: all 0.2s ease-in-out;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 }
@@ -356,6 +359,13 @@ button {
 }
 
 @media only screen and (max-width: 530px) {
+    *{
+        font-size: 14px !important;
+    }
+    .card-body{
+        font-size: 12px !important;
+    }
+
     .date-time {
         color: #fff;
         padding-right: 18px;
