@@ -119,11 +119,11 @@ const WeatherDetails = ({ data }) => {
             <Col sm={12} lg={4} md={4}>
               <div className="mb-2">
                 <h4 className="mb-2">Others</h4>
-                <SoftBadge pill className="ms-2 text-wrap">
+                <SoftBadge pill className="ms-2 text-wrap word-padding">
                   <span className="text-warning"> temp :</span>{' '}
                   {weather ? weather.main.temp : ''}
                 </SoftBadge>
-                <SoftBadge pill className="ms-2 text-wrap">
+                <SoftBadge pill className="ms-2 text-wrap word-padding">
                   <span className="text-warning"> pressure :</span>{' '}
                   {weather ? weather.main.pressure : ''}
                 </SoftBadge>

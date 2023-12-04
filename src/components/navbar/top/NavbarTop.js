@@ -133,7 +133,7 @@ const NavbarTopElements = ({
       <TopNavRightSideNavItem />
       <Navbar.Toggle
         ref={burgerMenuRef}
-        className={classNames('toggle-icon-wrapper me-md-3 me-2', {
+        className={classNames('toggle-icon-wrapper me-md-3 me-2  text-end', {
           'd-lg-none':
             navbarPosition === 'top' || navbarPosition === 'double-top',
           [`d-${navbarBreakPoint}-none`]:
@@ -142,7 +142,7 @@ const NavbarTopElements = ({
         as="div"
       >
         <button
-          className="navbar-toggler-humburger-icon btn btn-link d-flex flex-center"
+          className="navbar-toggler-humburger-icon btn btn-link d-flex flex-center hamburger-spacing"
           onClick={handleBurgerMenu}
           id="burgerMenu"
         >

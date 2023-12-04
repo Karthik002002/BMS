@@ -49,6 +49,11 @@
     color: #fff !important;
 }
 
+.hamburger-spacing{
+    margin: 5px !important;
+    margin-left: 10px !important;
+}
+
 /* toggle button */
 .theme-control-toggle .theme-control-toggle-label {
     height: 1.8rem !important;
@@ -263,7 +268,7 @@ button {
 
 @media only screen and (min-width: 992px) {
     .col-lg-2 {
-        flex: 0 0 auto;
+        flex: 0.1 0 auto !important;
         width: 12.66666667% !important;
     }
 
@@ -368,7 +373,7 @@ button {
 
     .date-time {
         color: #fff;
-        padding-right: 18px;
+        padding-right: 10px;
     }
 
     .profile-icon {
@@ -376,6 +381,12 @@ button {
     }
 
 
+}
+
+@media only screen and (max-width: 325px) {
+    .navbar-top .navbar-toggler {
+        margin-left: 17.375rem !important;
+    }
 }
 
 /* @media only screen and (max-width: 280px) {
