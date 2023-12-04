@@ -30902,7 +30902,8 @@ html[dir='rtl'] .img-dropdown {
 }
 
 .scrollbar {
-  height: 82vh;
+  height: auto;
+  max-height: 120vh;
   overflow: scroll;
 }
 

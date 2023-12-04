@@ -232,7 +232,9 @@ button {
 /* MEDIA QUERY */
 
 @media only screen and (max-width: 1280px) {
-
+    *{
+        font-size: 12px !important;
+    }
     nav.navbar-glass.fs--1.navbar-top.navbar.navbar-expand-lg.navbar-light {
         padding: 0px 5px 0px 5px;
     }
@@ -248,7 +250,12 @@ button {
     .navbar-top {
         min-height: fit-content !important;
         height: fit-content !important;
+        /* font-weight: 400; */
     }
+}
+
+@media only screen and (max-width: 1025px){
+    
 }
 
 @media only screen and (min-width: 992px) {
