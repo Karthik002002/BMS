@@ -4,7 +4,7 @@ import React, { useState } from 'react';
 import { Col, Row, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-const SidebarTableHeader = ({ selectedRowIds }) => {
+const   SidebarTableHeader = ({ selectedRowIds }) => {
   // const [tabs, setTabs] = useState('hello');
 
   return (
@@ -21,16 +21,6 @@ const SidebarTableHeader = ({ selectedRowIds }) => {
               <option value="delete">Delete</option>
               <option value="archive">Archive</option>
             </Form.Select> */}
-            <Link to="/trackingpage">
-              <Button
-                type="button"
-                variant="falcon-default"
-                size="sm"
-                className="ms-2"
-              >
-                Track
-              </Button>
-            </Link>
           </div>
         ) : (
           <div id="orders-actions">

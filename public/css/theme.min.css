@@ -30814,7 +30814,7 @@ html[dir='rtl'] .img-dropdown {
 }
 
 .notification-indicator-primary:before {
-  background-color: var(--falcon-primary);
+  background-color: var(--falcon-primary); 
 }
 
 .notification-indicator-secondary:before {

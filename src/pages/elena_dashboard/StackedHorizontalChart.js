@@ -193,6 +193,7 @@ const StackedHorizontalChart = ({ data }) => {
         <FalconComponentCard.Header
           title="Zone Wise Status - 22"
           light={false}
+          className="ms-1"
           // className="pt-4"
         />
         <FalconComponentCard.Body

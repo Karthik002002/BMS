@@ -8,7 +8,7 @@ const CustomersTableHeader = ({ selectedRowIds }) => {
   return (
     <Row className="flex-between-center">
       <Col xs={4} sm="auto" className="d-flex align-items-center pe-0">
-        <h5 className="fs-0 mb-0 text-nowrap py-2 py-xl-0 ms-2">Buoys List</h5>
+        <h5 className="fs-0 mb-0 text-nowrap py-2 py-xl-0 ms-3">Buoys List</h5>
       </Col>
       <Col xs={8} sm="auto" className="ms-auto text-end ps-0">
         {Object.keys(selectedRowIds).length > 0 ? (

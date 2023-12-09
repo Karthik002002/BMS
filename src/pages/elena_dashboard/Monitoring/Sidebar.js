@@ -189,7 +189,7 @@ const Sidebar = ({ data, setCenter, setZoomLevel }) => {
               rowClassName="btn-reveal-trigger text-nowrap align-middle"
               tableProps={{
                 size: 'sm',
-                className: 'fs--1 mb-0 overflow-hidden'
+                className: 'fs--1 mb-0 overflow-auto'
               }}
             />
           </Card.Body>

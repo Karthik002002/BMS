@@ -129,10 +129,10 @@ const DoughnutRoundedChart = ({ data }) => {
         axisPointer: {
           type: 'none'
         },
-        formatter: function(params) {
-          // Use the name of the data item as the content of the tooltip
-          return params.name;
-        }
+          formatter: function(params) {
+            // Use the name of the data item as the content of the tooltip
+            return params.name;
+          }
       }
       });
   
